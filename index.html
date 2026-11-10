@@ -10,10 +10,22 @@
 <body>
     <div class="container">
         <h1>Marvel & DC Quiz</h1>
-        
+
         
         <div id="start-screen" class="screen">
-            <p>Kan du svara rätt på alla 5 frågor om Marvel och DC?</p>
-            <button id="start-button" class="button">Starta Quizet</button>
+            <p>Can you answer all the questions correctly about Marvel and DC?</p>
+            <input type="text" id="player-name" placeholder="Enter your name here...">
+            <button id="start-button" onclick="startQuiz()" class="button">Start Quiz</button>
         </div>
+
+        
+        <div id="quiz" class="screen" style="display: none;"></div>
+
+        
+        <div id="result" class="screen"></div>
+
+        
+        <div id="leaderboard" class="screen" style="display: none;"></div>
     </div>
+</body>
+</html>
