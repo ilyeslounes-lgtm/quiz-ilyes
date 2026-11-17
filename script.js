@@ -2,19 +2,19 @@ const quizData = [
     /*const är en variabel man använder som aldrig får ändras*/
     {
         question: "What metal is Captain America's shield made of?",
-        image: "image/capshield.jpeg", 
+        image: image/capshield.jpeg, 
         options: ["Adamantium", "Vibranium", "Titanium", "Kryptonite"],
         correct: 1
     },
     {
         question: "Which superhero comes from the planet Krypton?",
-        image: "image/Krypton_(DC_Comics_planet_-_circa_2018).jpeg",
+        image: image/Krypton_(DC_Comics_planet_-_circa_2018).jpeg,
         options: ["Batman", "Thor", "Superman", "Flash"],
         correct: 2
     },
     {
         question: "Which specific Spider-man villain's real name is Dmitri Smerdyakov?",
-        image: "image/Villainarena.jpeg",
+        image: image/Villainarena.jpeg,
         options: ["Chameleon", "Kraven The Hunter", "The Rhino", "Vulture"],
         correct: 0
     },
@@ -26,25 +26,25 @@ const quizData = [
     },
     {
         question: "What component was used to construct the handle of Stormbreaker after the mold was split?",
-        image: "image/stormbreaker.jpeg",
+        image: image/stormbreaker.jpeg,
         options: ["A piece of Valkyrie's spear ", "Groot's arm", "Enchanted uru rod", "A branch from Yggdrasil"],
         correct: 1
     },
     {
         question: "Which secret society of ultra-wealthy families has secretly controlled Gotham City with the help of Talons?",
-        image: "image/Gotham_City_Arkham.jpeg",
+        image: image/Gotham_City_Arkham.jpeg,
         options: ["Order of St. Dumas", "The League of Assassins", "The Parliament of Trees", "The Court of Owls"],
         correct: 3
     },
     {
         question: "What is Cyborg's real name and what was his occupation before his accident?",
-        image: "image/cyborg.jpeg",
+        image: image/cyborg.jpeg,
         options: ["Victor Sork - Wrestler", "Victor Freeze - Scientist", "Victor Stone - Football player", "Victor Lewis - Musician"],
         correct: 2
     },
     {
         question: "What is Batman's contingency plan against Plastic Man?",
-        image: "image/batmancontingencyplans.jpeg",
+        image: image/batmancontingencyplans.jpeg,
         options: ["Exposed to a chemical that dissolves his molecular bonds permanently", "Frozen and shattered into pieces to prevent him from reforming", "Trapped inside a vacuum that forces his body into an immovable object", "Hit with a thermal wave that turns him into an inert liquid"],
         correct: 1
     }
