@@ -2,54 +2,54 @@ const quizData = [
     /*const är en variabel man använder som aldrig får ändras*/
     {
         question: "What metal is Captain America's shield made of?",
-        image: image/capshield.jpeg, 
+        image: "capshield.jpg", 
         options: ["Adamantium", "Vibranium", "Titanium", "Kryptonite"],
         correct: 1
     },
     {
         question: "Which superhero comes from the planet Krypton?",
-        image: image/Krypton_(DC_Comics_planet_-_circa_2018).jpeg,
+        image: "Krypton_(DC_Comics_planet_-_circa_2018).jpg",
         options: ["Batman", "Thor", "Superman", "Flash"],
         correct: 2
     },
     {
         question: "Which specific Spider-man villain's real name is Dmitri Smerdyakov?",
-        image: image/Villainarena.jpeg,
+        image: "Villainarena.jpg",
         options: ["Chameleon", "Kraven The Hunter", "The Rhino", "Vulture"],
         correct: 0
     },
     {
         question: "Which villain broke Batman's back in the Batcave?",
-        image: "image/backbroken.jpeg",
+        image: "backbroken.jpg",
         options: ["Killer Croc", "Bane", "Azrael", "Solomon Grundy"],
         correct: 1
     },
     {
         question: "What component was used to construct the handle of Stormbreaker after the mold was split?",
-        image: image/stormbreaker.jpeg,
+        image: "stormbreaker.jpg",
         options: ["A piece of Valkyrie's spear ", "Groot's arm", "Enchanted uru rod", "A branch from Yggdrasil"],
         correct: 1
     },
     {
         question: "Which secret society of ultra-wealthy families has secretly controlled Gotham City with the help of Talons?",
-        image: image/Gotham_City_Arkham.jpeg,
+        image: "Gotham_City_Arkham.jpg",
         options: ["Order of St. Dumas", "The League of Assassins", "The Parliament of Trees", "The Court of Owls"],
         correct: 3
     },
     {
         question: "What is Cyborg's real name and what was his occupation before his accident?",
-        image: image/cyborg.jpeg,
+        image: "cyborg.jpg",
         options: ["Victor Sork - Wrestler", "Victor Freeze - Scientist", "Victor Stone - Football player", "Victor Lewis - Musician"],
         correct: 2
     },
     {
         question: "What is Batman's contingency plan against Plastic Man?",
-        image: image/batmancontingencyplans.jpeg,
+        image: "batmancontingencyplans.jpg",
         options: ["Exposed to a chemical that dissolves his molecular bonds permanently", "Frozen and shattered into pieces to prevent him from reforming", "Trapped inside a vacuum that forces his body into an immovable object", "Hit with a thermal wave that turns him into an inert liquid"],
         correct: 1
     }
 ];
-/*Frågor och vilka val man kan använda och korrekt svar*/
+/*Frågor och vilka val man kan använda och korrekt svar med bilderna för mig så strulade bilderna jättemycket så jag behövde fråga gemini vad problemet var och fick hjälp*/
 
 let currentQuestion = 0;
 let score = 0;
