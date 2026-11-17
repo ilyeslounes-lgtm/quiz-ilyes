@@ -5,10 +5,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100;
+    min-height: 100vh;
     margin: 0;
 }
 /* stylar kroppen med font family svart bakgrund färg vit content ska vara i mitten msrgin är 0 och minimumn height 100 */
+
 .container {
     background-color: #16213e;
     padding: 25px;
@@ -18,7 +19,7 @@ body {
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-
+/* stylar containern med mörkblå bakgrund text i mitten med skugga*/
 
 .quiz-info {
     display: flex;
@@ -27,6 +28,7 @@ body {
     font-weight: bold;
     color: #e94560;
 }
+/* stylar quiz-informationen med flexbox så innehållet sprids ut, lägger till marginal nedåt, fet stil och rosa/röd färg */
 
 .options {
     display: grid;
@@ -34,7 +36,7 @@ body {
     gap: 10px;
     margin-top: 15px;
 }
-
+/* skapar svarsalternativen  */
 
 button {
     background-color: #0f3460;
@@ -46,28 +48,27 @@ button {
     font-size: 14px;
     transition: transform 0.1s, background-color 0.2s;
 }
-
+/* stylar knapparna med mörkblå bakgrund, vit text, och pointer för cursor*/
 
 button:hover {
     background-color: #e94560;
     transform: scale(1.03);
 }
+/* ändrar knappen till rosa/röd och gör den lite större när muspekaren hålls över den */
 
-
-button:active {
-    transform: scale(0.96);
-}
 
 
 button.correct {
     background-color: #2ed573 ;
     color: white;
 }
+/* gör knappen grön för att markera att svaret är korrekt */
 
 button.incorrect {
     background-color: #ff4757 ;
     color: white;
 }
+/* gör knappen röd för att markera att svaret är inkorrekt */
 
 input {
     padding: 10px;
@@ -77,3 +78,4 @@ input {
     margin-bottom: 15px;
     text-align: center;
 }
+/* stylar inmatningsfältet */
